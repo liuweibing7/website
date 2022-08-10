@@ -308,7 +308,7 @@ PodTemplates are specifications for creating Pods, and are included in workload 
 {{< glossary_tooltip text="负载" term_id="workload" >}}资源的控制器通常使用
 **Pod 模板（Pod Template）**来替你创建 Pod 并管理它们。
 
-Pod 模板是包含在工作负载对象中的规范，用来创建 Pod。这类负载资源包括
+Pod 模板是包含在工作负载资源中的规范，用来创建 Pod。这类负载资源包括
 [Deployment](/zh-cn/docs/concepts/workloads/controllers/deployment/)、
 [Job](/zh-cn/docs/concepts/workloads/controllers/job/) 和
 [DaemonSets](/zh-cn/docs/concepts/workloads/controllers/daemonset/) 等。
